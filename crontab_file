@@ -1,0 +1,4 @@
+30 11 * * * /root/check_disk_space_v2.sh  # Chạy script vào 11h30
+0 13 * * * /root/check_disk_space_v2.sh   # Chạy script vào 13h
+30 23 * * * /root/check_disk_space_v2.sh  # Chạy script vào 23h30
+0 1 * * * /root/check_disk_space_v2.sh    # Chạy script vào 1h (sáng sớm)
